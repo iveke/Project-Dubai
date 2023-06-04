@@ -3,18 +3,19 @@
     Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
   line-height: 1.5;
   background-color: #fff;
-  color: #2f2f37;
+  color: #5353da;
   max-width: 960px;
   padding: 16px;
+
+  &:hover{
+    font-family: monospace;
+    font-size: 16px;
+    font-weight: 700;
+    background-color: #ff6b0a;
+    color: #fff;
+    padding: 2px 6px;
+    border-radius: 2px;
+  }
 }
 
-.example code {
-  font-family: monospace;
-  font-size: 16px;
-  font-weight: 700;
-  background-color: #ff6b0a;
-  color: #fff;
-  padding: 2px 6px;
-  border-radius: 2px;
-}
 
