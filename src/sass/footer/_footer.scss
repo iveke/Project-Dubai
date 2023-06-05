@@ -1,0 +1,54 @@
+.footer {
+    position: relative;
+    width: 360px;
+    height: 751px;
+    background-color: #000000;
+}
+
+
+.frame {
+    box-sizing: border-box;
+
+    position: absolute;
+    left: 10.56%;
+    right: 78.33%;
+    top: 5.46%;
+    bottom: 86.15%;
+
+    border: 2px solid #FCD54C;
+    border-right-style: none;
+
+    &__name {
+        position: absolute;
+        left: 14.72%;
+        right: 38.33%;
+        top: 6.39%;
+        bottom: 89.88%;
+
+        font-family: 'Gilroy';
+        font-style: normal;
+        font-weight: 700;
+        font-size: 28px;
+        line-height: 35px;
+
+        color: #FFFFFF;
+    }
+
+    &__subname {
+        position: absolute;
+        left: 14.72%;
+        right: 53.89%;
+        top: 10.65%;
+        bottom: 88.15%;
+
+        font-family: 'Work Sans';
+        font-style: normal;
+        font-weight: 400;
+        font-size: 11px;
+        line-height: 13px;
+
+        color: #FFFFFF;
+
+        opacity: 0.6;
+    }
+}
