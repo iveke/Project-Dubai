@@ -1,0 +1,43 @@
+body{
+    background: #272727;
+}
+
+.container{
+    padding:0 36px;
+    max-width: 320px;
+    max-height: 1200px;
+}
+
+.blog-h1{
+    display: inline-block;
+    width: 63px;
+    height: 37px;
+    font-weight: 700;
+    font-size: 30px;
+    line-height: 37px;
+    color: #FFFFFF;
+    margin: 0;
+}
+
+.div-h1{
+    max-width: 63px;
+    max-height: 37px;
+}
+
+.picture{
+    width: 288px;
+    height: 329px;
+    color: #FFFFFF;
+}
+
+.text-under-picture{
+    width: 288px;
+    border: 1px solid #FCD54C;
+}
+
+.h2-under-picture{
+    color: #FFFFFF;
+    font-weight: 700;
+    font-size: 24px;
+    line-height: 35px;
+}
