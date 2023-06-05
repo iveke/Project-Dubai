@@ -1,0 +1,95 @@
+html{
+    box-sizing: border-box;
+  }
+  
+  html *, ::after, ::before{
+    box-sizing: inherit;
+  }
+
+p,h1,h2,h3,h4,h5,h6{
+    margin: 0;
+}
+
+button{
+    cursor: pointer;
+}
+
+body{
+    background: #272727;
+}
+
+.container{
+    padding:0 36px;
+    max-width: 360px;
+}
+
+.blog-h1{
+    display: inline-block;
+    width: 63px;
+    height: 37px;
+    font-weight: 700;
+    font-size: 30px;
+    line-height: 37px;
+    color: #FFFFFF;
+    margin: 0;
+    margin-bottom: 10px;
+}
+
+.div-h1{
+    max-width: 63px;
+    max-height: 37px;
+}
+
+.picture{
+    width: 288px;
+    height: 329px;
+    color: #FFFFFF;
+}
+
+.text-under-picture{
+    width: 288px;
+    height: 248px;
+    border: 1px solid #FCD54C;
+    padding: 20px 0 20px 20px;
+}
+
+.h2-under-picture{
+    margin: 0;
+    display: inline-block;
+    color: #FFFFFF;
+    font-weight: 700;
+    font-size: 24px;
+    line-height: 35px;
+    width: 244px;
+    height: 70px;
+}
+
+.picture-div{
+    width: 288px;
+    margin-top: 20px;
+}
+
+.p-under-picture{
+    margin: 23px 0 28px 0;
+    display: inline-block;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 21px;
+    color: #929292;
+    width: 247px;
+    height: 63px;
+}
+
+.h4-under-picture{
+    font-weight: 600;
+    font-size: 16px;
+    line-height: 24px;
+    color: #FFFFFF;
+    margin-right: 19px;
+    width: 91px;
+    height: 24px;
+}
+
+.button-under-picture{
+    background-color: #272727;
+}
