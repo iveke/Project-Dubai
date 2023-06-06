@@ -23,7 +23,7 @@ body{
     max-width: 360px;
 }
 
-.blog-h1{
+.title__h1{
     display: inline-block;
     width: 63px;
     height: 37px;
@@ -35,25 +35,25 @@ body{
     margin-bottom: 10px;
 }
 
-.div-h1{
+.title{
     max-width: 63px;
     max-height: 37px;
 }
 
-.picture{
+.picture-div__icon{
     width: 288px;
     height: 329px;
     color: #FFFFFF;
 }
 
-.text-under-picture{
+.picture-div__text{
     width: 288px;
     height: 248px;
     border: 1px solid #FCD54C;
     padding: 20px 0 20px 20px;
 }
 
-.h2-under-picture{
+.picture-div__title{
     margin: 0;
     display: inline-block;
     color: #FFFFFF;
@@ -69,7 +69,7 @@ body{
     margin-top: 20px;
 }
 
-.p-under-picture{
+.picture-div__p{
     margin: 23px 0 28px 0;
     display: inline-block;
     font-weight: 400;
@@ -80,16 +80,14 @@ body{
     height: 63px;
 }
 
-.h4-under-picture{
+.picture-div__button{
+    background-color: #272727;
     font-weight: 600;
     font-size: 16px;
     line-height: 24px;
     color: #FFFFFF;
-    margin-right: 19px;
     width: 91px;
     height: 24px;
-}
-
-.button-under-picture{
-    background-color: #272727;
+    padding: 0;
+    border: 0;
 }
