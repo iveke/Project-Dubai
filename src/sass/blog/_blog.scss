@@ -14,6 +14,10 @@ button{
     cursor: pointer;
 }
 
+image{
+    display: block;
+}
+
 body{
     background: #272727;
 }
@@ -31,5 +35,10 @@ picture{
 @import './_blog-title';
 @import './_blog-picture-div';
 
-
-
+@media screen and (min-width:768px){
+    .container{
+        padding:0 39px 0 37px;
+        max-width: 768px;
+    }
+    @import './blog-title-adaptive-768';
+}
