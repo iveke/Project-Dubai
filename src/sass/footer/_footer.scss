@@ -92,20 +92,8 @@
     }
 
     &__mark {
-        height: 5px;
-        display: inline;
-        width: 5px;
-    }
-
-    &__mark::before {
-        content: "";
-        border: 1px solid #929292;
-        transform: rotate(45deg);
-        
-    }
-
-    &__mark::after {
-        border: 1px solid #929292;
-        transform: matrix(0.66, -0.75, 0.28, 0.96, 0, 0);
+        display: inline-block;
+        font-size: 10px;
+        color: 929292;
     }
 }
