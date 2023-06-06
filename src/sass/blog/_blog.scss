@@ -1,3 +1,8 @@
+
+@import '/cssfonnts/fonts.scss';
+@import './blog-title';
+@import './blog-picture-div';
+
 html{
     box-sizing: border-box;
   }
@@ -23,5 +28,5 @@ body{
     max-width: 360px;
 }
 
-@import './blog-title';
-@import './blog-picture-div';
+
+
