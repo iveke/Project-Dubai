@@ -1,0 +1,56 @@
+@font-face {
+    font-family: 'Gilroy-Bold';
+    font-display: swap;
+    src: url("/fonts/Gilroy-Bold.woff");
+    src: local("0"),url("/fonts/Gilroy-Bold.woff2") format("woff2");
+    font-weight: 700;
+    font-style: normal;
+}
+@font-face {
+    font-family: 'Gilroy-Regular';
+    font-display: swap;
+    src: url("/fonts/Gilroy-Regular.woff");
+    src: local("0"),url("/fonts/Gilroy-Regular.woff2") format("woff2");
+    font-weight: 400;
+    font-style: normal;
+}
+@font-face {
+    font-family: 'Gilroy-Semibold';
+    font-display: swap;
+    src: url("/fonts/Gilroy-Semibold.woff");
+    src: local("0"),url("/fonts/Gilroy-Semibold.woff2") format("woff2");
+    font-weight: 600;
+    font-style: normal;
+}
+@font-face {
+    font-family: 'Roboto-Regular';
+    font-display: swap;
+    src: url("/fonts/Roboto-Regular.woff");
+    src: local("0"),url("/fonts/Roboto-Regular.woff2") format("woff2");
+    font-weight: 400;
+    font-style: normal;
+}
+@font-face {
+    font-family: 'WorkSans-Light';
+    font-display: swap;
+    src: url("/fonts/WorkSans-Light.woff");
+    src: local("0"),url("/fonts/WorkSans-Light.woff2") format("woff2");
+    font-weight: 300;
+    font-style: normal;
+}
+@font-face {
+    font-family: 'WorkSans-Regular';
+    font-display: swap;
+    src: url("/fonts/WorkSans-Regular.woff");
+    src: local("0"),url("/fonts/WorkSans-Regular.woff2") format("woff2");
+    font-weight: 400;
+    font-style: normal;
+}
+@font-face {
+    font-family: 'WorkSans-SemiBold';
+    font-display: swap;
+    src: url("/fonts/WorkSans-SemiBold.woff");
+    src: local("0"),url("/fonts/WorkSans-SemiBold.woff2") format("woff2");
+    font-weight: 600;
+    font-style: normal;
+}
