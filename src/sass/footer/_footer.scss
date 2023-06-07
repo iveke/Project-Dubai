@@ -1,3 +1,6 @@
+@import '/cssfonnts/fonts.scss';
+
+
 * {
     margin: 0;
     padding: 0;
@@ -95,5 +98,40 @@
         display: inline-block;
         font-size: 10px;
         color: 929292;
+    }
+}
+
+.wrapper {
+    margin-top: 40px;
+    display: flex;
+    justify-content: center;
+
+    &__btn {
+        width: 284px;
+        height: 67px;
+        background-color: #FBC710;
+
+    }
+}
+
+.lastEl {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+
+    width: 360px;
+    height: 90px;
+    background-color: #272727;
+
+    &__text {
+        padding: 16px 92px 21px 92px;
+        text-align: center;
+        font-family: 'Lexend';
+        font-style: normal;
+        font-weight: 300;
+        font-size: 12px;
+        line-height: 15px;
+
+        color: #E8E8E8;
     }
 }
