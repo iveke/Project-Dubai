@@ -1,1 +1,145 @@
 @import '/cssfonnts/fonts.scss';
+.container{
+    padding:0 36px;
+    max-width: 360px;
+}
+ul {
+    margin: 0;
+    padding: 0;
+    list-style: none;
+  }
+  h1,h2,h3,h4,h5,h6, p{
+    margin: 0;
+  }
+  .link {
+    text-decoration: none;
+  }
+  
+  /* style */
+  button{
+    cursor: pointer;
+  }
+.title__h1{
+    display: inline-block;
+    width: 114px;
+    height: 37px;
+    font-weight: 700;
+    font-family: 'Gilroy-Bold';
+    font-size: 30px;
+    line-height: 37px;
+    color: #FFFFFF;
+    margin: 0;
+}
+.title_h2{
+
+    width: 104px;
+    height: 25px;
+    font-weight: 700;
+    font-family: 'Gilroy-Bold';
+    font-size: 20px;
+    line-height: 24px;
+    color: #FFFFFF;
+    margin-top: 30px;
+}
+.title_h2_span{
+    color: #FCD54C;
+}
+.text_p_one{
+    width: 287px;
+    // display: inline-block;
+    height: 63px;
+    margin-top: 20px;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 21px;
+    color: #929292;
+}
+.text_p_two{
+    display: block;
+}
+.contacts_h1{
+    font-size: 20px;
+    line-height: 25px;
+    color: #FFFFFF;
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+.contacts_p_one{
+    width: 153px;
+    height: 21px;
+}
+.map_form_h2{
+    color: #FCD54C;
+    width: 130px;
+    height: 60px;
+    margin-top: 52px;
+    margin-bottom: 30px;
+}
+.map_form_span{
+    display: block;
+    color: #FFFFFF;
+}
+.map_form_btn{
+    background-color: #FCD54C;
+    color: #272727;
+    width: 288px;
+    height: 52px;
+    border: none;
+    margin-top: 33px;
+}
+.form_input_message{
+    width: 288px;
+    height: 218px;
+    border: 1px solid #C9C9C9;
+    background-color: transparent;
+    margin-top: 20px;
+    padding-left: 27px;
+    padding-top: 27px;
+    font-size: 16px;
+    line-height: 19px;
+}
+.form_input{
+    width: 288px;
+    height: 50px;
+    font-size: 16px;
+    line-height: 19px;
+    border: 1px solid #C9C9C9;
+    background-color: transparent;
+}
+.form_input + .form_input{
+    margin-top: 20px;
+}
+.form{
+    color: #929292;
+}
+.contacts_p_two{
+    margin-top: 27px;
+    font-size: 14px;
+    line-height: 21px;
+    color: #FFFFFF;
+    width: 71px;
+    height: 21px;
+    margin-bottom: 14px;
+}
+.contacts_p_one{
+    font-size: 14px;
+    line-height: 21px;
+    display: inline;
+    color: #FFFFFF;
+}
+.contact_span{
+    color: #929292;
+}
+.contacts_p_three{
+    color: #FFFFFF;
+    font-size: 14px;
+    line-height: 21px;
+    margin-bottom: 30px;
+}
+.contacts_p_three_span_one{
+    margin-left: 7px;
+    color: #929292;
+}
+.contacts_p_three_span_two{
+    padding-left: 98px;
+}
