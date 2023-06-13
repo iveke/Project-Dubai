@@ -42,6 +42,13 @@ body{
         padding:0 39px 0 37px;
         max-width: 768px;
     }
+    .picture-div__img{
+        display: none;
+    }
+    .picture-div__img2{
+        width: 322px;
+        height: 329px;
+    }
     @import './blog-main-blog';
     @import './blog-title-adaptive-768';
     @import './blog-container-ul-768';
