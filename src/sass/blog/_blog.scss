@@ -3,6 +3,7 @@
 @import './blog-title';
 @import './blog-picture-div';
 
+
 html{
     box-sizing: border-box;
   }
@@ -19,7 +20,7 @@ button{
     cursor: pointer;
 }
 
-image{
+img{
     display: block;
 }
 
@@ -32,21 +33,19 @@ body{
     max-width: 360px;
 }
 
-
-picture{
-    width: 288px;
-    height: 329px;
-}
-
 @import './_blog-title';
 @import './_blog-picture-div';
+@import './blog-container-ul-360';
 
 @media screen and (min-width:768px){
     .container{
         padding:0 39px 0 37px;
         max-width: 768px;
     }
+    @import './blog-main-blog';
     @import './blog-title-adaptive-768';
+    @import './blog-container-ul-768';
+    @import './blog-picture-div-adaptive-768';
 }
 
 

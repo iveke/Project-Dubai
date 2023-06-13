@@ -1,0 +1,18 @@
+.main-blog{
+    height: 80px;
+    display: flex;
+    margin-bottom: 27px;
+    &__div{
+        margin: auto 0;
+        width: 510px;
+        height: 47px;
+    }
+    &__div-input{
+        width: 510px;
+        height: 47px;
+        padding: 10px 0 11px 19px;
+        background-color: #272727;
+        border: 1px solid #929292;
+        color: #929292;
+    }
+}
