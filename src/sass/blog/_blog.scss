@@ -33,6 +33,24 @@ body{
     max-width: 360px;
 }
 
+.picture-div__button{
+    display: flex;
+    width: 120px;
+}
+
+.picture-div__button-svg{
+    width: 11px;
+    height: 20px;
+}
+
+.picture-div__img2{
+    display: none;
+}
+
+.main-blog__div-input{
+    display: none;
+}
+
 @import './_blog-title';
 @import './_blog-picture-div';
 @import './blog-container-ul-360';
@@ -46,8 +64,12 @@ body{
         display: none;
     }
     .picture-div__img2{
+        display: block;
         width: 322px;
         height: 329px;
+    }
+    .container__ul-li-6{
+        display: block;
     }
     @import './blog-main-blog';
     @import './blog-title-adaptive-768';
