@@ -1,36 +1,37 @@
 .picture-div{
-    width: 288px;
-    margin-top: 20px;
+    box-sizing: border-box;
+    width: 322px;
+    margin: 0;
     &__icon{
-    width: 288px;
+    width: 322px;
     height: 329px;
     color: #FFFFFF;
 }
     &__text{
-    width: 288px;
+    width: 322px;
     height: 248px;
     border: 1px solid #FCD54C;
-    padding: 20px 0 20px 20px;
+    padding: 20px 22px 20px 20px;
 }
     &__title{
     margin: 0;
     display: inline-block;
     color: #FFFFFF;
     font-weight: 700;
-    font-size: 24px;
+    font-size: 25px;
     line-height: 35px;
-    width: 244px;
+    width: 290px;
     height: 70px;
 }
     &__p{
-    margin: 23px 0 28px 0;
+    margin: 23px 0 13px 0;
     display: inline-block;
     font-weight: 400;
-    font-size: 14px;
-    line-height: 21px;
+    font-size: 16px;
+    line-height: 26px;
     color: #929292;
-    width: 247px;
-    height: 63px;
+    width: 279px;
+    height: 78px;
 }
     &__button{
     background-color: #272727;

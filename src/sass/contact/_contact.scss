@@ -19,7 +19,7 @@ ul {
   button{
     cursor: pointer;
   }
-.title__h1{
+.main-contact__title{
     display: inline-block;
     width: 114px;
     height: 37px;
@@ -30,8 +30,7 @@ ul {
     color: #FFFFFF;
     margin: 0;
 }
-.title_h2{
-
+.main-contact__title__dubai{
     width: 104px;
     height: 25px;
     font-weight: 700;
@@ -41,12 +40,15 @@ ul {
     color: #FFFFFF;
     margin-top: 30px;
 }
-.title_h2_span{
+.main-contact__span{
     color: #FCD54C;
 }
-.text_p_one{
+.map{
+    width: 289px; 
+    height: 351px;
+}
+.text__p{
     width: 287px;
-    // display: inline-block;
     height: 63px;
     margin-top: 20px;
     font-weight: 400;
@@ -54,32 +56,32 @@ ul {
     line-height: 21px;
     color: #929292;
 }
-.text_p_two{
+.text__span{
     display: block;
 }
-.contacts_h1{
+.contacts__title{
     font-size: 20px;
     line-height: 25px;
     color: #FFFFFF;
     margin-top: 20px;
     margin-bottom: 20px;
 }
-.contacts_p_one{
+.contacts__p{
     width: 153px;
     height: 21px;
 }
-.map_form_h2{
+.map__form__h2{
     color: #FCD54C;
     width: 130px;
     height: 60px;
     margin-top: 52px;
     margin-bottom: 30px;
 }
-.map_form_span{
+.map__form__span{
     display: block;
     color: #FFFFFF;
 }
-.map_form_btn{
+.map__form__btn{
     background-color: #FCD54C;
     color: #272727;
     width: 288px;
@@ -87,7 +89,7 @@ ul {
     border: none;
     margin-top: 33px;
 }
-.form_input_message{
+.map__form__form__input__message{
     width: 288px;
     height: 218px;
     border: 1px solid #C9C9C9;
@@ -97,22 +99,25 @@ ul {
     padding-top: 27px;
     font-size: 16px;
     line-height: 19px;
+    color: white;
 }
-.form_input{
+.map__form__form__input{
     width: 288px;
     height: 50px;
+    padding-left: 23px;
     font-size: 16px;
     line-height: 19px;
     border: 1px solid #C9C9C9;
     background-color: transparent;
+    color: #FFFFFF;
 }
-.form_input + .form_input{
+.map__form__form__input + .map__form__form__input{
     margin-top: 20px;
 }
-.form{
+.map__form__form{
     color: #929292;
 }
-.contacts_p_two{
+.contacts__p__follow{
     margin-top: 27px;
     font-size: 14px;
     line-height: 21px;
@@ -121,25 +126,164 @@ ul {
     height: 21px;
     margin-bottom: 14px;
 }
-.contacts_p_one{
+.contacts__p{
     font-size: 14px;
     line-height: 21px;
     display: inline;
     color: #FFFFFF;
 }
-.contact_span{
+.contacts__span{
     color: #929292;
 }
-.contacts_p_three{
+.contacts__p__work{
     color: #FFFFFF;
     font-size: 14px;
     line-height: 21px;
     margin-bottom: 30px;
 }
-.contacts_p_three_span_one{
+.contacts__span__day{
     margin-left: 7px;
     color: #929292;
 }
-.contacts_p_three_span_two{
+.contacts__span__hours{
     padding-left: 98px;
+}
+@media screen and (min-width:768px) {
+    .container{
+        padding-left: 37px;
+        padding-right: 36px;
+        max-width: 768px;
+    }
+    .main-contact__title{
+        width: 190px;
+        height: 62px;
+    }
+    .map{
+        width: 695px;
+        height: 596px;
+    }
+    .container_contact{
+        width: 273px;
+        height: 355px;
+        position: absolute;
+        background-color: #272727;
+        transform: translate(32px,120px);
+        padding-left: 29px;
+        padding-right: 29px;
+    }
+    .text__p{
+        width: 208px;
+        height: 63px;
+    }
+    .contacts__p__work{
+        width: 217px;
+        height: 30px;
+    }
+    .contacts__span__day{
+        width: 120px;
+        height: 18px;
+    }
+    .map__form__form__input{
+        width: 207px;
+        height: 50px;
+    }
+    .map__form__form__input__message{
+        width: 692px;
+        height: 218px;
+    }
+    .map__form__form__input + .map__form__form__input{
+        margin-left: 31px;
+        margin-top: 0px;
+    }
+    .map__form__form{
+        width: 692px;
+    }
+    .map__form__btn{
+        width: 151px;
+        height: 52px;
+    }
+    @media screen and (min-width:1920px) {
+        .container{
+            padding-left: 60px;
+            padding-right: 60px;
+            max-width: 1920px;
+        }
+        .main-contact__title{
+            width: 228px;
+            height: 75px;
+            padding-left: 345px;
+            margin-bottom: 90px;
+            font-size: 60px;
+            line-height: 75px;
+        }
+        .map{
+            width: 1800px;
+            height: 768px;
+        }
+        .container_contact{
+            width: 544px;
+            height: 605px;
+            position: absolute;
+            transform: translate(345px,82px);
+            padding-left: 89px;
+            padding-right: 90px;
+            padding-top: 82px;
+            padding-bottom: 91px
+        }
+        .main-contact__title__dubai{
+            width: 165px;
+            margin-top: 0;
+            height: 45px;
+            font-size: 32px;
+            line-height: 45px;
+        }
+        .text__p{
+            width: 365px;
+            height: 42px;
+            font-size: 16px;
+            line-height: 21px;
+            margin-top: 33px;
+        }
+        .contacts__title{
+            width: 339px;
+            height: 33px;
+            font-size: 32px;
+            font-weight: 700;
+            line-height: 45px;
+            margin-top: 61px;
+            margin-bottom: 93px;
+        }
+        .contacts__p__work{
+            width: 496px;
+        }
+        .contacts__span__hours{
+            padding-left: 0;
+        }
+        .map__form__h2{
+            width: 730px;
+            height: 80px;
+            font-size: 32px;
+            line-height: 35px;
+            margin-bottom: 71px;
+            padding-left: 345px;
+        }
+        .map__form__form__input{
+            width: 350px;
+            height: 50px;
+        }
+        .map__form__form{
+            padding-left: 345px;
+        }
+        .map__form__form__input__message{
+            width: 1110px;
+            height: 218px;
+        }
+        .map__form__form__container{
+            display: flex;
+            width: 1110px;
+        }
+        .btn{
+            padding-left: 345px;
+        }
+}
 }

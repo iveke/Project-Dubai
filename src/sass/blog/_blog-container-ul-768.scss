@@ -1,0 +1,16 @@
+.container__ul{
+    display: flex;
+    max-width: 692px;
+    margin: 0 auto;
+    align-items: center;
+    gap: 28px;
+    flex-wrap: wrap;
+}
+
+.container__ul-li{
+    height: 577px;
+    width: 332px;
+    position: relative;
+    margin: 0;
+    padding: 0;
+}
