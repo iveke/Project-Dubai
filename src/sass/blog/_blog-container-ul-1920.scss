@@ -1,0 +1,20 @@
+.container__ul{
+    display: flex;
+    max-width: 1110px;
+    margin: 0 auto;
+    align-items: center;
+    gap: 30px;
+    flex-wrap: wrap;
+}
+
+.container__ul-li{
+    height: 562px;
+    width: 350px;
+    position: relative;
+    margin: 0;
+    padding: 0;
+}
+
+.container__ul-li-6{
+    display: none;
+}

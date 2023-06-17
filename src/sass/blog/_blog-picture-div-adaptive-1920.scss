@@ -1,17 +1,17 @@
 .picture-div{
     box-sizing: border-box;
-    width: 322px;
+    width: 350px;
     margin: 0;
     &__icon{
-    width: 322px;
+    width: 350px;
     height: 329px;
     color: #FFFFFF;
 }
     &__text{
-    width: 322px;
-    height: 248px;
+    width: 350px;
+    height: 233px;
     border: 1px solid #FCD54C;
-    padding: 20px 22px 20px 20px;
+    padding: 17px 30px 8px;
 }
     &__title{
     margin: 0;
@@ -30,7 +30,7 @@
     font-size: 16px;
     line-height: 26px;
     color: #929292;
-    width: 279px;
+    width: 280px;
     height: 78px;
 }
     &__button{
@@ -39,14 +39,14 @@
     font-size: 16px;
     line-height: 24px;
     color: #FFFFFF;
-    width: 91px;
+    width: 121.32px;
     height: 24px;
     padding: 0;
     border: 0;
 }
-    &__img2{
+    &__img3{
         display: block;
-        width: 322px;
+        width: 350px;
         height: 329px;
     }
 }
