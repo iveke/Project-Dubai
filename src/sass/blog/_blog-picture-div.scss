@@ -38,9 +38,20 @@
     font-size: 16px;
     line-height: 24px;
     color: #FFFFFF;
-    width: 91px;
+    width: 100px;
     height: 24px;
     padding: 0;
     border: 0;
+    position: relative;
 }
+    &__button-svg{
+            width: 11px;
+            height: 20px;
+            position: absolute;
+            fill: #ffffff;
+        &__use{
+            width: 11px;
+            height: 20px;
+        }
+    }
 }
