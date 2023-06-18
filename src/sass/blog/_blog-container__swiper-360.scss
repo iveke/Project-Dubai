@@ -1,0 +1,33 @@
+.container{
+    padding:0 36px;
+    max-width: 360px;
+    &__swiper{
+        width: 274.83px;
+        height: 32px;
+        margin: 30px auto 118px;
+    }
+    &__swiper-ul{
+        display: flex;
+        width: 233px;
+        height: 32px;
+        margin: 0 auto;
+    }
+        &__swiper-ul__li{
+            width: 32px;
+            height: 32px;
+        }
+        &__swiper-ul__li-btn{
+            height: 32px;
+            width: 32px;
+            font-weight: 400;
+            font-size: 14px;
+            line-height: 17px;
+            background-color: #272727;
+            border: 0;
+            padding: 0;
+            color: #FFFFFF;
+        }
+        &__swiper-ul__li-btn:hover{
+            background-color: #FCD54C;
+        }
+}
