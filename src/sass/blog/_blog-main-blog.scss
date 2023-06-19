@@ -6,6 +6,7 @@
         margin: auto 0;
         width: 510px;
         height: 47px;
+        position: relative;
     }
     &__div-input{
         display: block;
@@ -15,5 +16,13 @@
         background-color: #272727;
         border: 1px solid #929292;
         color: #929292;
+    }
+    &__div-svg{
+        width: 25px;
+        height: 25px;
+        position: absolute;
+        fill: #ffffff;
+        left: 460px;
+        top: 10px;
     }
 }

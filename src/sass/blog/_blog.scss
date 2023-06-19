@@ -50,6 +50,10 @@ body{
     display: none;
 }
 
+.main-blog__div-svg{
+    display: none;
+}
+
 @import './_blog-title';
 @import './_blog-picture-div';
 @import './_blog-container-ul-360';

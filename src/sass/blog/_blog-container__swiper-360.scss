@@ -8,9 +8,11 @@
     }
     &__swiper-ul{
         display: flex;
-        width: 233px;
+        width: 272px;
         height: 32px;
         margin: 0 auto;
+        padding-left: 25.41;
+        position: relative;
     }
         &__swiper-ul__li{
             width: 32px;
@@ -29,5 +31,21 @@
         }
         &__swiper-ul__li-btn:hover{
             background-color: #FCD54C;
+        }
+        &__swiper-svg{
+            width: 10.12px;
+            height: 17.41px;
+            position: absolute;
+            fill: #ffffff;
+            left: 264.71px;
+            top: 7.295px;
+        }
+        &__swiper-svg2{
+            width: 10.12px;
+            height: 17.41px;
+            position: absolute;
+            fill: #ffffff;
+            right: 264.71px;
+            top: 7.295px;
         }
 }
