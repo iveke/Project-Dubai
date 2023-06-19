@@ -5,9 +5,90 @@
     background-repeat: no-repeat;
     background-position: center;
     margin: 19px auto 42px;
+    padding: 19px 0 14px;
+}
+
+.luxury-div__skip{
+    width: 80px;
+    height: 24px;
+    font-weight: 700;
+    font-size: 10px;
+    line-height: 240%;
+    letter-spacing: 0.2em;
+    margin: 63px 0 0 23px;
+    display: flex;
+    gap: 20px;
+    position: relative;
+    &__p{
+        width: 30px;
+        height: 24px;
+    }
+    &__p + &__p{
+        color: rgb(164, 163, 163);
+    }
+    &__p + &__p::before{
+        content: '';
+        position: absolute;
+        width: 1px;
+        height: 15px;
+        background-color: white;
+        right: 40px;
+        top: 4.5px;
+    }
 }
 
 .luxury-div__text{
-    height: 195px;
+    height: 200px;
     width: 250px;
+    margin: 0 auto;
+    position: relative;
+    &__svg{
+        position: absolute;
+        width: 67px;
+        height: 199px;
+        background-color: transparent;
+        fill: transparent;
+    }
+    &__svg2{
+        position: absolute;
+        width: 10px;
+        height: 14.13px;
+        bottom: 11px;
+    }
+    &__svg-use{
+        width: 63px;
+        height: 195px;
+    }
+    &__p{
+        font-weight: 400;
+        font-size: 10px;
+        line-height: 11.73px;
+        width: 70px;
+        height: 12px;
+        margin: 15px 0 7px 19px;
+        display: inline-block;
+    }
+    &__p2{
+        font-weight: 700;
+        font-size: 12px;
+        line-height: 14px;
+        width: 118px;
+        height: 14px;
+        display: inline-block;
+        margin-left: 19px;
+    }
+    &__h1{
+        font-weight: 700;
+        font-size: 30px;
+        line-height: 38px;
+        width: 231;
+        height: 76px;
+        margin: 0 0 61px 19px;
+        text-transform: capitalize;
+        &__span{
+            color: #FCD54C;
+            width: 32px;
+            margin: 0;
+        }
+    }
 }
