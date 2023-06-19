@@ -1,0 +1,44 @@
+.numbers{
+    width: 286px;
+    height: 80px;
+    margin-bottom: 42px;
+    &__div{
+        width: 286px;
+        height: 80px;
+        padding-bottom: 6px;
+        border-bottom: 1px solid #FCD54C;
+        &__ul{
+            display: flex;
+            height: 74px;
+            width: 286px;
+            gap: 29px;
+        }
+        &__ul-li{
+            width: 76px;
+            height: 74px;
+            &__p{
+                width: 40px;
+                height: 50px;
+                color: white;
+                font-weight: 700;
+                font-size: 40px;
+                line-height: 50px;
+            }
+            &__p1{
+                color: #FCD54C;
+                width: 40px;
+                height: 50px;
+                font-weight: 700;
+                font-size: 40px;
+                line-height: 50px;
+            }
+            &__p2{
+                width: 76px;
+                height: 24px;
+                font-weight: 600;
+                font-size: 10px;
+                line-height: 12px;
+            }
+        }
+    }
+}
