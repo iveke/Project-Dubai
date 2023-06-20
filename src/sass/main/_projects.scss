@@ -1,6 +1,7 @@
 .projects{
-    height: 489px;
+    height: 490px;
     width: 287px;
+    margin-bottom: 78px;
     &__background-div{
         position: absolute;
         z-index: -2;
@@ -59,6 +60,64 @@
             display: flex;
             flex-wrap: wrap;
             gap: 7px;
+            &__li-hover{
+                display: none;
+                width: 140px;
+                height: 186px;
+                padding: 14.78px 8.21px 9.97px 9.25px;
+                background-color: #FCD54C;
+                transition-duration: 400ms;
+                transform: translateY(100%);
+                &__title{
+                    font-weight: 700;
+                    font-size: 18px;
+                    line-height: 22px;
+                    margin-bottom: 11.84px;
+                    width: 51px;
+                    height: 22px;
+                    color: #272727;
+                }
+                &__p{
+                    font-weight: 400;
+                    font-size: 10px;
+                    line-height: 11.73px;
+                    width: 112px;
+                    height: 94px;
+                    color: #272727;
+                    margin-bottom: 15px;
+                }
+                &__btn{
+                    width: 77px;
+                    height: 14px;
+                    padding: 0;
+                    border: 0;
+                    background-color: #FCD54C;
+                    display: flex;
+                    &__p{
+                    width: 68px;
+                    height: 14px;
+                    font-weight: 700;
+                    font-size: 12px;
+                    line-height: 14.08px;
+                    color: #272727;
+                    margin-right: 3.64px;
+                    }
+                    &__svg{
+                        width: 6px;
+                        height: 7px;
+                        margin: auto 0;
+                    }
+                }
+            }
+            &__li:hover{
+                .projects__div-example__ul__li-hover{
+                    display: block;
+                    transform: translateY(0%);
+                }
+                .projects__div-example__ul__li__p{
+                    display: none;
+                }
+            }
             &__li{
                 width: 140px;
                 height: 186px;
@@ -69,6 +128,23 @@
                     margin: 152px 0 12px 12px;
                 }
             }
+        }
+    }
+    &__div-dots{
+        width: 73px;
+        height: 13px;
+        margin: 0 auto;
+        display: flex;
+        gap: 17px;
+        &__svg1{
+            width: 13px;
+            height: 13px;
+            fill: #FCD54C;
+        }
+        &__svg2{
+            width: 13px;
+            height: 13px;
+            fill: rgb(181, 180, 180);
         }
     }
 }
