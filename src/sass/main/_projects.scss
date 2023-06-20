@@ -1,0 +1,74 @@
+.projects{
+    height: 489px;
+    width: 287px;
+    &__background-div{
+        position: absolute;
+        z-index: -2;
+    }
+    &__title{
+        width: 165px;
+        height: 30px;
+        margin-bottom: 20px;
+        &__h2{
+            width: 165px;
+            height: 30px;
+            font-weight: 700;
+            font-size: 24px;
+            line-height: 30px;
+        }
+    }
+    &__div-choose{
+        width: 287px;
+        height: 15px;
+        margin-bottom: 10px;
+        &__ul{
+            display: flex;
+            gap: 29px;
+            width: 287px;
+            height: 15px;
+            font-weight: 600;
+            font-size: 12px;
+            line-height: 14px;
+            color: white;
+            &__li1{
+                width: 16px;
+                height: 14px;
+                color: #FCD54C;
+                position: relative;
+            }
+            &__li2{
+                width: 48px;
+                height: 14px;
+            }
+            &__li3{
+                width: 44px;
+                height: 14px;
+            }
+            &__li4{
+                width: 92px;
+                height: 15px;
+                color: #929292;
+            }
+        }
+    }
+    &__div-example{
+        height: 382px;
+        width: 287px;
+        margin-bottom: 20px;
+        &__ul{
+            display: flex;
+            flex-wrap: wrap;
+            gap: 7px;
+            &__li{
+                width: 140px;
+                height: 186px;
+                &__p{
+                    font-weight: 700;
+                    font-size: 18px;
+                    line-height: 22px;
+                    margin: 152px 0 12px 12px;
+                }
+            }
+        }
+    }
+}
