@@ -1,0 +1,35 @@
+.expertise{
+    width: 288px;
+    height: 566px;
+    margin-bottom: 40px;
+    &__div{
+    width: 288px;
+    height: 566px;
+    &__p-expertise{
+        width: 93px;
+        height: 16px;
+        font-weight: 600;
+        font-size: 14px;
+        line-height: 16px;
+        color: #FCD54C;
+        margin-bottom: 10px;
+    }
+    &__p-the-best{
+        width: 288px;
+        height: 90px;
+        font-weight: 700;
+        font-size: 24px;
+        line-height: 30px;
+        color: #e8e8e8;
+        margin-bottom: 10px;
+    }
+    &__p-lorem{
+        width: 255px;
+        height: 445px;
+        font-weight: 400;
+        font-size: 14px;
+        line-height: 22.4px;
+        color: #E8E8E8;
+    }
+    }
+}

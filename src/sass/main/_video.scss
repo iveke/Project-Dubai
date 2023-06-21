@@ -1,0 +1,32 @@
+.video{
+    width: 360px;
+    height: 185px;
+    position: relative;
+    margin-bottom: 40px;
+    &__btn{
+        width: 25px;
+        height: 25px;
+        margin-left: 132px;
+        margin-top: 80px;
+        padding: 0;
+        border: 0;
+        background-color: transparent;
+    }
+    &__svg{
+        width: 25px;
+        height: 25px;
+        fill: white;
+        background-color: #FCD54C;
+        border-radius: 100px;
+    }
+    &__bacgroung-img{
+        position: absolute;
+        width: 360px;
+        height: 185px;
+        right: 36px;
+        z-index: -3;
+        &__img{
+            width: 360px;
+        }
+    }
+}

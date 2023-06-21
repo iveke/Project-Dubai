@@ -1,0 +1,24 @@
+.interier{
+    width: 288px;
+    height: 1360px;
+    margin-bottom: 40px;
+    &__ul{
+        width: 288px;
+        height: 1330px;
+        display: flex;
+        flex-direction: column;
+        gap: 20px;
+        &__li{
+            height: 676px;
+            width: 288px;
+            &__p{
+                width: 250px;
+                height: 462px;
+                margin-top: 20px;
+                font-weight: 400;
+                font-size: 14px;
+                line-height: 160%;
+            }
+        }
+    }
+}

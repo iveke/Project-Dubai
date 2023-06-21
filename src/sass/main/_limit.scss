@@ -1,0 +1,21 @@
+.limit{
+    width: 288px;
+    height: 227px;
+    border: 1px solid #fcd54c;
+    padding: 22.5px 25px;
+    margin-bottom: 40px;
+    &__div{
+        width: 239px;
+        height: 182px;
+        &__p{
+            width: 235px;
+            height: 182px;
+            font-weight: 400;
+            font-size: 16px;
+            line-height: 160%;
+            &__span2{
+                color: #fcd54c;
+            }
+        }
+    }
+}
