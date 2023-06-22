@@ -1,0 +1,49 @@
+.articles{
+    height: 269px;
+    width: 288px;
+    margin-bottom: 20px;
+    &__img-div{
+        width: 288px;
+        height: 218.5px;
+        &__img{
+            width: 288px;
+        }
+    }
+    &__div{
+        width: 288px;
+        height: 30px;
+        display: flex;
+        flex-wrap: wrap;
+        margin-bottom: 20px;
+        &__title{
+            width: 160px;
+            height: 30px;
+            font-weight: 700;
+            font-size: 24px;
+            line-height: 30px;
+            margin-right: 48px;
+        }
+        &__btn{
+            width: 79px;
+            height: 16px;
+            color: #929292;
+            display: flex;
+            padding: 0;
+            border: 0;
+            background-color: #272727;
+            margin: auto 0;
+            &__svg{
+                width: 10px;
+                height: 16px;
+            }
+            &__p{
+                margin: auto 0;
+                font-weight: 600;
+                font-size: 8px;
+                line-height: 10px;
+                color: #929292;
+                margin-right: 11px;
+            }
+        }
+    }
+}
