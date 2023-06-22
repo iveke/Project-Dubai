@@ -1,0 +1,62 @@
+.contact{
+    width: 360px;
+    height: 264px;
+    position: relative;
+    margin-bottom: 43px;
+    &__img-div{
+        width: 360px;
+        height: 264px;
+        position: absolute;
+        right: 36px;
+        z-index: -3;
+    }
+    &__div{
+        width: 288px;
+        height: 165px;
+        margin: auto 0;
+        position: absolute;
+        top: 49px;
+        &__p{
+            width: 164px;
+            height: 14px;
+            font-weight: 600;
+            font-size: 12px;
+            line-height: 14px;
+            margin: 0 0 19px 60px;
+            color: #272727;
+        }
+        &__title{
+            width: 250px;
+            height: 62px;
+            font-weight: 700;
+            font-size: 50px;
+            line-height: 62px;
+            margin: 0 0 29px 22px;
+            color: #272727;
+        }
+        &__input{
+            width: 192px;
+            height: 41px;
+            font-weight: 400;
+            font-size: 12px;
+            line-height: 14px;
+            padding: 13px 0 14px 14px;
+            border: 0;
+        }
+        &__btn{
+            width: 96px;
+            height: 41px;
+            font-weight: 600;
+            font-size: 14px;
+            line-height: 16px;
+            color: white;
+            background-color: #272727;
+            padding: 0;
+            border: 0;
+        }
+        &__form{
+            display: flex;
+            width: 288px;
+        }
+    }
+}
