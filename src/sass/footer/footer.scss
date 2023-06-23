@@ -42,6 +42,7 @@
         gap: 184px;
         margin-top: 80px;
         height: 287px;
+        border-bottom: 1px solid rgba(255, 255, 255, 0.3);
     }
 
     &__lastEl {
@@ -83,7 +84,9 @@
     .lastEl {
         &__wrapper {
             margin: 0 auto;
-
+            display: flex;
+            align-items: center;
+            padding: 0 50px;
         }
 
         &__text {
