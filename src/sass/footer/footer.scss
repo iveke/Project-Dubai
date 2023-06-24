@@ -1,5 +1,6 @@
 @import '/cssfonnts/fonts.scss';
 
+
 * {
     margin: 0;
     padding: 0;
@@ -98,6 +99,99 @@
             margin-left: 1320px;
             display: flex;
             gap: 29px;
+        }
+    }
+}
+
+
+@media (max-width:360px) {
+    .footer {
+
+        height: 751px;
+
+        &__wrapper {
+            margin: 0 auto;
+            max-width: 360px;
+            // background-color: #FCD54C;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+        }
+
+        .title {
+            margin: 40px 138px 40px 0;
+        }
+
+        .icon {
+            width: 184px;
+            height: 63px;
+        }
+
+
+        .nav {
+
+            margin: 0 auto;
+
+            &__block {
+                display: none;
+            }
+
+            .arrow {
+                position: absolute;
+                right: 0;
+            }
+
+            &__elem {
+                width: 284px;
+            }
+
+            .tit-li {
+                width: 100%;
+                position: relative;
+                display: flex;
+                align-items: center;
+
+                border-bottom: 1px solid #000000;
+                padding: 15px 0;
+            }
+
+            .text-li {
+
+                margin-top: 13px;
+            }
+
+            &__elem:hover {
+                .nav__block {
+                    display: block;
+                }
+            }
+        }
+
+        .btn-consult {
+            margin: 0 auto;
+            background-color: #FCD54C;
+            width: 284px;
+            height: 67px;
+            margin-top: 91px;
+        }
+
+        .lastEl {
+            &__wrapper {
+                position: relative;
+                margin: 0 auto;
+                display: flex;
+                align-items: center;
+                justify-content: center;
+                width: 360px;
+                height: 90px;
+                flex-direction: column-reverse;
+            }
+
+            .network {
+                margin-bottom: 14px;
+                display: flex;
+                gap: 29px;
+            }
         }
     }
 }
