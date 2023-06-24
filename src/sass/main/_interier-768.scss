@@ -1,0 +1,23 @@
+.interier{
+    width: 688px;
+    height: 620px;
+    margin-bottom: 70px;
+    &__ul{
+        width: 688px;
+        height: 620px;
+        flex-direction: row;
+        gap: 24px;
+        &__li{
+            height: 620px;
+            width: 328px;
+            &__p{
+                width: 328px;
+                height: 396px;
+                margin-top: 30px;
+                line-height: 22.4px;
+                color: #e8e8e8;
+                font-family: Work Sans;
+            }
+        }
+    }
+}

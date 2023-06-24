@@ -1,7 +1,6 @@
 .limit{
     width: 690px;
     height: 162px;
-    border: 1px solid #fcd54c;
     padding: 37px 58.43px 38px 60.3px;
     margin-bottom: 70px;
     &__div{
@@ -13,9 +12,6 @@
             font-weight: 400;
             font-size: 18px;
             line-height: 28.8px;
-            &__span2{
-                color: #fcd54c;
-            }
         }
     }
 }
