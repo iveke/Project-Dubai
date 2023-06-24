@@ -34,6 +34,10 @@ button{
     cursor: pointer;
 }
 
+.numbers2, .luxury__background-div__img2, .luxury-div__text__svg-social, .projects__background-div__img2, .projects__div-choose2{
+    display: none;
+}
+
 img{
     display: block;
 }
@@ -53,17 +57,13 @@ body{
         padding: 0 38.5px;
     }
     @import './luxury-768';
-    .luxury__background-div__img{
+    .luxury__background-div__img, .luxury-div__text__svg, .numbers, .projects__div-choose, .projects__background-div__img1{
         display: none;
     }
-    .luxury-div__text__svg-768{
+    .luxury-div__text__svg-768, .numbers2,.luxury__background-div__img2, .luxury-div__text__svg-social, .projects__background-div__img2, .projects__div-choose2{
         display: block;
     }
-    .luxury-div__text__svg{
-        display: none;
-    }
-    .numbers{
-        display: none;
-    }
+
     @import './numbers-768';
+    @import './projects-768';
 }
