@@ -13,6 +13,10 @@
 @import './paul';
 @import './faq';
 
+.luxury-div__text__svg-768{
+    display: none;
+}
+
 html{
     box-sizing: border-box;
   }
@@ -40,4 +44,26 @@ body{
 
 .container{
     width: 360px;
+    padding: 0 36px;
+}
+
+@media screen and (min-width:768px){
+    .container{
+        width: 768px;
+        padding: 0 38.5px;
+    }
+    @import './luxury-768';
+    .luxury__background-div__img{
+        display: none;
+    }
+    .luxury-div__text__svg-768{
+        display: block;
+    }
+    .luxury-div__text__svg{
+        display: none;
+    }
+    .numbers{
+        display: none;
+    }
+    @import './numbers-768';
 }
