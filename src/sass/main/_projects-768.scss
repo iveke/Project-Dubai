@@ -1,0 +1,92 @@
+.projects{
+    height: 327px;
+    width: 691px;
+    margin-bottom: 70px;
+    &__title{
+        width: 691px;
+        height: 37px;
+        margin-bottom: 25.38px;
+        display: flex;
+        gap: 195px;
+        &__h2{
+            width: 206px;
+            height: 37px;
+            font-size: 30px;
+            line-height: 37.14px;
+        }
+    }
+    &__div-choose2{
+        width: 287px;
+        height: 15px;
+        margin: 16px 0 0 0;
+        &__ul{
+            display: flex;
+            gap: 30px;
+            width: 287px;
+            height: 15px;
+            font-weight: 600;
+            font-size: 12px;
+            line-height: 14px;
+            color: white;
+            &__li1{
+                width: 16px;
+                height: 14px;
+                color: #FCD54C;
+                position: relative;
+            }
+            &__li2{
+                width: 48px;
+                height: 14px;
+            }
+            &__li3{
+                width: 44px;
+                height: 14px;
+            }
+            &__li4{
+                width: 92px;
+                height: 15px;
+                color: #929292;
+            }
+        }
+    }
+    &__div-example{
+        height: 220px;
+        width: 691px;
+        &__ul{
+            gap: 10px;
+            &__li-hover{
+                width: 165px;
+                height: 220px;
+                padding: 17.57px 24.05px 13.38px 11.46px;
+                &__title{
+                    line-height: 22.28px;
+                    margin-bottom: 18.26px;
+                }
+                &__p{
+                    font-weight: 400;
+                    font-size: 12px;
+                    line-height: 14.08px;
+                    width: 129.49px;
+                    height: 112px;
+                    margin-bottom: 22.79px;
+                }
+                &__btn{
+                    width: 78.4px;
+                    height: 14px;
+                    &__p{
+                    line-height: 14.08px;
+                    margin-right: 3.64px;
+                    }
+                }
+            }
+            &__li{
+                width: 165px;
+                height: 220px;
+                &__p{
+                    line-height: 22.28px;
+                    margin: 171.62px 0 26.38px 15.24px;
+                }
+            }
+        }
+    }
+}
