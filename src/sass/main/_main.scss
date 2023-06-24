@@ -34,7 +34,8 @@ button{
     cursor: pointer;
 }
 
-.numbers2, .luxury__background-div__img2, .luxury-div__text__svg-social, .projects__background-div__img2, .projects__div-choose2{
+.numbers2, .luxury__background-div__img2, .luxury-div__text__svg-social, .projects__background-div__img2,
+.projects__div-choose2, .video__bacgroung-img__img2, .video__svg2, .interier__img-div__img2{
     display: none;
 }
 
@@ -57,13 +58,19 @@ body{
         padding: 0 38.5px;
     }
     @import './luxury-768';
-    .luxury__background-div__img, .luxury-div__text__svg, .numbers, .projects__div-choose, .projects__background-div__img1{
+    .luxury__background-div__img, .luxury-div__text__svg, .numbers, .projects__div-choose,
+    .projects__background-div__img1, .video__svg, .video__bacgroung-img__img, .interier__img-div__img{
         display: none;
     }
-    .luxury-div__text__svg-768, .numbers2,.luxury__background-div__img2, .luxury-div__text__svg-social, .projects__background-div__img2, .projects__div-choose2{
+    .luxury-div__text__svg-768, .numbers2,.luxury__background-div__img2, .luxury-div__text__svg-social,
+    .projects__background-div__img2, .projects__div-choose2, .video__bacgroung-img__img2, .video__svg2,
+    .interier__img-div__img2{
         display: block;
     }
     @import './numbers-768';
     @import './projects-768';
     @import './expertise-768';
+    @import './video-768';
+    @import './limit-768';
+    @import './interier-768';
 }
