@@ -3,6 +3,9 @@
     padding:0 36px;
     max-width: 360px;
 }
+:root{
+    --cube:cubic-bezier(0.4, 0, 0.2, 1)
+}
 ul {
     margin: 0;
     padding: 0;
@@ -64,6 +67,9 @@ ul {
 .hero__span__buy{
     color: #929292;
 }
+.estate{
+    margin-top: 10px;
+}
 .estate__h1{
     font-weight: 700;
     font-size: 24px;
@@ -71,7 +77,6 @@ ul {
     
     font-weight: 700;
     font-family: 'Gilroy-Bold';
-    margin-top: 10px;
     width: 288px;
     height: 60px;
     color: #FFFFFF;
@@ -88,7 +93,7 @@ ul {
     color: #929292;
 }
 .estate__text__p{
-    margin-top: 39px;
+    margin-top: 27px;
 }
 .methods__h1{
     width: 241px;
@@ -153,6 +158,8 @@ ul {
     margin-left: 159px;
     width: 94px;
     height: 52px;
+    display: flex;
+    flex-direction: column;
 }
 .photo{
     margin-top: 50px;
@@ -301,6 +308,10 @@ ul {
     width: 178px;
     height: 26px;
 }
+.include__h3:nth-child(2){
+    margin-left: 148px;
+    margin-right: 39px;
+}
 .include__title{
     background-color: #FCD54C;
     width: 690px;
@@ -308,25 +319,28 @@ ul {
     padding-top: 24px;
     padding-bottom: 24px;
     padding-left: 24px;
-}
-.include__ul{
-    width: 334px;
-    height: 754px;
-    font-weight: 600;
-    font-size: 16px;
-    line-height: 26px;
-    color: #FFFFFF;
-    font-family: 'WorkSans-SemiBold';
-    background-color: #272727;;
+    display: -webkit-inline-box;
 }
 .include__li:nth-child(odd){
     background-color: rgba(255, 255, 255, 0.1);
 }
+.include__ul{
+    width: 690px;
+    height: 754px;
+}
 .include__li{
     width: 690px;
     height: 51px;
+    color: #FFF;
+    font-size: 16px;
     padding-top: 14px;
     padding-left: 20px;
+    font-weight: 600;
+    font-family: 'WorkSans-SemiBold';
+    line-height: 26px;
+}
+.include__true__one, .include__true__two{
+    display: none;
 }
 .propose{
     margin-top: 50px;
@@ -339,16 +353,23 @@ ul {
     font-weight: 700;
     font-family: 'Gilroy-Bold';
     color: #FFFFFF;   
+    margin-bottom: 30px;
 }
 .propose__card{
-    margin-top: 20px;
-    margin-bottom: 20px;
     padding-top: 24px;
     padding-left: 22px;
     width: 290px;
     height: 216px;
+    position: absolute;
+    transform: translateY(110%);
+    transition: transform 200ms, --cube; 
+    top: 0px;
+    left: 0px;  
     background-color: #FCD54C;
     border: 4px solid #FCD54C;  
+}
+.propose__overlay + .propose__overlay{
+    margin-top: 20px;
 }
 .propose__card__h2{
     width: 189px;
@@ -411,3 +432,227 @@ ul {
     background-repeat: no-repeat;
     background-image: url(/svg-service/all.svg#all);
 }
+.propose__overlay{
+    position: relative;
+    overflow: hidden;  
+}
+.propose__overlay:hover .propose__card{
+    transform: translateX(0);
+}
+@media screen and (min-width:768px) {
+    .container{
+        width: 768px;
+        padding: 0 39px;
+    }
+    .hero__h3{
+        font-size: 16px;
+        width: 37px;
+        height: 26px;
+        left: 58px;
+        top: 151px;
+    }
+    .hero__h1{
+        font-size: 40px;
+        line-height: 50px;
+        width: 417px;
+        height: 100px;
+        left: 58px;
+        top: 180px;
+    }
+    .hero__p{
+        font-size: 16px;
+        width: 257px;
+        height: 26px;
+        margin-top: 71px;
+    }
+    .estate{
+        margin-top: 20px;
+    }
+    .estate__h1{
+        width: 427px;
+        height: 45px;
+        font-size: 25px;
+        line-height: 45px;
+    }
+    .estate__text{
+        width: 690px;
+        height: 168px;
+        margin-top: 20px;
+        margin-bottom: 40px;
+    }
+    .methods__h1{
+        width: 251px;
+        font-size: 25px;
+    }
+    .methods__text{
+        margin-top: 13px;
+        width: 690px;
+        height: 189px;
+    }
+    .one{
+        margin-left: 223px;
+    }
+    .two{
+        margin-left: 257px;
+    }
+    .three{
+        margin-left: 148px;
+    }
+    .four{
+        margin-left: 309px;
+    }
+    .five{
+        margin-left: 300px;
+    }
+    .six{
+        margin-left: 248px;
+    }
+    .seven{
+        margin-left: 183px;
+    }
+    .eight{
+        margin-left: 118px;
+    }
+    .nine{
+        margin-left: 78px;
+    }
+    .ten{
+        margin-left: 223px;
+    }
+    .eleven{
+        margin-left: 326px;
+    }
+    .twenteen{
+        margin-left: 309px;
+    }
+    .threeteen{
+        margin-left: 509px;
+    }
+    .fourteen{
+        margin-left: 358px;
+    }
+    .fiveteen{
+        margin-left: 426px;
+    }
+    .include__true__two{
+        margin-left: 164px;
+    }
+    .include__true__one, .include__true__two{
+        color: #FCD54C;
+        font-size: 16px;
+        display: inline;
+    }
+    .photo{
+        display: flex;
+    }
+    .challenge__p{
+        width: 687px;
+        height: 84px;
+        margin-top: 31px;
+    }
+    .challenge__h1{
+        width: 120px;
+        font-size: 25px;
+    }
+    .line{
+        margin-top: 50px;
+        width: 690px;
+        height: 0.95px;
+    }
+    .every{
+        margin-top: 40px;
+    }
+
+    .every__p{
+        width: 687px;
+        height: 84px;
+        margin-top: 30px;
+    }
+    .everything{
+        margin-top: 50px;
+    }
+    .everything__ul{
+        width: 685px;
+        height: 210px;
+    }
+    .author{
+        width: 690px;
+        height: 259px;
+        padding-left: 32px;
+        padding-right: 61px;
+    }
+    .author__p{
+        width: 509px;
+        display: inline-block;
+        height: 105px;
+        font-size: 20px;
+        margin-left: 19px;
+        line-height: 35px;
+        margin-top: 38px;
+    }
+    .author__div{
+        margin-top: 28px;
+        margin-left: 85px;
+        width: 129px;
+        height: 52px;
+    }
+    .photo__ul{
+        position: relative;
+    }
+    .photo__li:nth-child(2){
+        margin-top: 30px;
+    }
+    .photo__li:nth-child(3){
+        position: absolute;
+        left: 369px;
+        top: 0;
+    }
+    .propose__ul{
+        display: inline-flex;
+        gap: 19px;
+    }
+    .propose__h1{
+        width: 238px;
+        height: 45px;
+        font-size: 25px;
+        line-height: 45px;
+    }
+    .propose__card{
+        padding-left: 14px;
+        padding-right: 13px;
+        width: 216px;
+        height: 216px;
+        position: absolute;
+        transform: translateY(110%);
+        transition: transform 200ms, --cube; 
+        top: 0px;
+        left: 0px;  
+        background-color: #FCD54C;
+        border: 4px solid #FCD54C;  
+    }
+    .propose__card__p{
+        width: 189px;
+        height: 72px;
+        margin-top: 7.5px;
+    }
+    .propose__card__learn{
+        margin-left: 0;
+    }
+    .propose__p{
+        transform: translate(400px,-310px);
+    }
+    .recomend-container{
+        width: 687px;
+        height: 81px;
+    }
+    .recomend-ul{
+        display: flex;
+        width: 687px;
+        justify-content: center;
+        align-items: flex-end;
+        gap: 60px;
+    }
+    .recomend-ul-li:nth-child(2){
+        transform: translateY(32px);
+        }    
+    }
