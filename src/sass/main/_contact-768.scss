@@ -1,0 +1,32 @@
+.contact{
+    width: 768px;
+    height: 255px;
+    margin-bottom: 70px;
+    &__img-div{
+        right: 38.5px;
+    }
+    &__div{
+        width: 450px;
+        height: 146px;
+        left: 120.5px;
+        &__p{
+            margin: 0 auto;
+        }
+        &__title{
+            width: 356px;
+            height: 87px;
+            font-size: 70px;
+            line-height: 86.66px;
+            margin: 0 auto 4px;
+        }
+        &__input{
+            width: 300px;
+        }
+        &__btn{
+            width: 150px;
+        }
+        &__form{
+            width: 450px;
+        }
+    }
+}

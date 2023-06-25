@@ -59,7 +59,8 @@ body{
     }
     @import './luxury-768';
     .luxury__background-div__img, .luxury-div__text__svg, .numbers, .projects__div-choose,
-    .projects__background-div__img1, .video__svg, .video__bacgroung-img__img, .interier__img-div__img{
+    .projects__background-div__img1, .video__svg, .video__bacgroung-img__img,
+    .interier__img-div__img, .contact__img-div__img{
         display: none;
     }
     .luxury-div__text__svg-768, .numbers2,.luxury__background-div__img2, .luxury-div__text__svg-social,
@@ -73,4 +74,5 @@ body{
     @import './video-768';
     @import './limit-768';
     @import './interier-768';
+    @import './contact-768';
 }
