@@ -35,7 +35,8 @@ button{
 }
 
 .numbers2, .luxury__background-div__img2, .luxury-div__text__svg-social, .projects__background-div__img2,
-.projects__div-choose2, .video__bacgroung-img__img2, .video__svg2, .interier__img-div__img2{
+.projects__div-choose2, .video__bacgroung-img__img2, .video__svg2, .interier__img-div__img2,
+.articles__img-div__img2, .architecture__img-div__img2, .architecture2{
     display: none;
 }
 
@@ -60,12 +61,13 @@ body{
     @import './luxury-768';
     .luxury__background-div__img, .luxury-div__text__svg, .numbers, .projects__div-choose,
     .projects__background-div__img1, .video__svg, .video__bacgroung-img__img,
-    .interier__img-div__img, .contact__img-div__img{
+    .interier__img-div__img, .contact__img-div__img, .architecture, .articles__img-div__img,
+    .architecture__img-div__img{
         display: none;
     }
     .luxury-div__text__svg-768, .numbers2,.luxury__background-div__img2, .luxury-div__text__svg-social,
     .projects__background-div__img2, .projects__div-choose2, .video__bacgroung-img__img2, .video__svg2,
-    .interier__img-div__img2{
+    .interier__img-div__img2, .articles__img-div__img2, .architecture__img-div__img2{
         display: block;
     }
     @import './numbers-768';
@@ -75,4 +77,6 @@ body{
     @import './limit-768';
     @import './interier-768';
     @import './contact-768';
+    @import './architecture-768';
+    @import './articles-768';
 }
