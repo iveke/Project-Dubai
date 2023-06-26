@@ -147,4 +147,21 @@
             fill: rgb(181, 180, 180);
         }
     }
+    &__div-dots2{
+        width: 73px;
+        height: 13px;
+        margin: 0 auto;
+        display: flex;
+        gap: 17px;
+        &__svg1{
+            width: 13px;
+            height: 13px;
+            fill: #FCD54C;
+        }
+        &__svg2{
+            width: 13px;
+            height: 13px;
+            fill: rgb(181, 180, 180);
+        }
+    }
 }
