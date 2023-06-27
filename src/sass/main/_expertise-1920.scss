@@ -1,0 +1,34 @@
+.expertise{
+    width: 1809px;
+    height: 600px;
+    margin: 0 0 90px 0;
+    &__div{
+        width: 730px;
+        height: 600px;
+        margin: 0 auto;
+    &__p-expertise{
+        width: 115px;
+        height: 29px;
+        font-weight: 600;
+        font-size: 18px;
+        line-height: 28.8px;
+        margin-bottom: 40px;
+    }
+    &__p-the-best{
+        width: 730px;
+        height: 207px;
+        font-weight: 700;
+        font-size: 70px;
+        line-height: 69px;
+        margin-bottom: 33px;
+    }
+    &__p-lorem{
+        width: 729px;
+        height: 290px;
+        font-family: Work Sans;
+        font-weight: 400;
+        font-size: 18px;
+        line-height: 28.8px;
+    }
+    }
+}
