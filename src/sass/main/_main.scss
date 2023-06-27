@@ -35,7 +35,12 @@ button{
 }
 
 .numbers2, .luxury__background-div__img2, .luxury-div__text__svg-social, .projects__background-div__img2,
-.projects__div-choose2, .video__bacgroung-img__img2, .video__svg2, .interier__img-div__img2{
+.projects__div-choose2, .video__bacgroung-img__img2, .video__svg2, .interier__img-div__img2,
+.articles__img-div__img2, .architecture__img-div__img2, .architecture2{
+    display: none;
+}
+
+.paul__img-div2, .paul__text-div2, .paul__div2, .projects__div-dots2, .paul__img-div__img2{
     display: none;
 }
 
@@ -59,18 +64,35 @@ body{
     }
     @import './luxury-768';
     .luxury__background-div__img, .luxury-div__text__svg, .numbers, .projects__div-choose,
-    .projects__background-div__img1, .video__svg, .video__bacgroung-img__img, .interier__img-div__img{
+    .projects__background-div__img1, .video__svg, .video__bacgroung-img__img,
+    .interier__img-div__img, .contact__img-div__img, .architecture, .articles__img-div__img,
+    .architecture__img-div__img{
         display: none;
     }
     .luxury-div__text__svg-768, .numbers2,.luxury__background-div__img2, .luxury-div__text__svg-social,
     .projects__background-div__img2, .projects__div-choose2, .video__bacgroung-img__img2, .video__svg2,
-    .interier__img-div__img2{
+    .interier__img-div__img2, .articles__img-div__img2, .architecture__img-div__img2{
         display: block;
     }
+    .paul__img-div2, .paul__text-div2, .paul__div2, .paul__img-div__img2{
+        display: block;
+    }
+    .projects__div-dots2{
+        display: flex;
+    }
+
     @import './numbers-768';
     @import './projects-768';
     @import './expertise-768';
     @import './video-768';
     @import './limit-768';
     @import './interier-768';
+    @import './contact-768';
+    @import './architecture-768';
+    @import './articles-768';
+    @import './faq-768';
+    @import './paul-768';
+    .paul__img-div__img, .projects__div-dots{
+        display: none;
+    }
 }

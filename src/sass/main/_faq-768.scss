@@ -1,27 +1,27 @@
 .faq{
-    width: 288px;
-    height: 365px;
-    margin-bottom: 50px;
+    width: 690px;
+    height: 392px;
+    margin-bottom: 70px;
     &__div{
-        width: 288px;
-        height: 365px;
+        width: 690px;
+        height: 392px;
         &__p{
-            width: 47px;
-            height: 30px;
-            margin-bottom: 20px;
+            width: 58px;
+            height: 37px;
+            margin-bottom: 40px;
             font-weight: 700;
-            font-size: 24px;
-            line-height: 29.71px;
+            font-size: 30px;
+            line-height: 37.14px;
         }
         &__ul{
-            width: 288px;
+            width: 690px;
             height: 315px;
-            gap: 11px;
+            gap: 22px;
             display: flex;
             flex-direction: column;
             &__li2{
-                width: 288px;
-                height: 53px;
+                width: 690px;
+                height: 63px;
                 display: flex;
                 border-top: 1px solid #929292;
                 border-bottom: 1px solid #929292;
@@ -31,17 +31,17 @@
                     margin: auto 0;
                 }
                 &__p2{
-                    width: 225px;
-                    height: 16px;
-                    font-size: 12px;
-                    line-height: 130%;
+                    width: 640px;
+                    height: 63px;
+                    font-size: 16px;
+                    line-height: 20.8px;
                     font-weight: 400;
-                    margin: 20px 33px 23px 0;
+                    margin: 20px 33px 22px 0;
                 }
             }
             &__li{
-                width: 288px;
-                height: 53px;
+                width: 690px;
+                height: 41px;
                 display: flex;
                 border-top: 1px solid #929292;
                 &__svg{
@@ -50,10 +50,10 @@
                     margin: 22px 0 0 0;
                 }
                 &__p{
-                    width: 225px;
-                    height: 32px;
-                    font-size: 12px;
-                    line-height: 130%;
+                    width: 640px;
+                    height: 21px;
+                    font-size: 16px;
+                    line-height: 20.8px;
                     font-weight: 400;
                     margin-right: 33px;
                     margin-top: 20px;
