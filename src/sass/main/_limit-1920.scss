@@ -1,0 +1,21 @@
+.limit{
+    width: 1908px;
+    height: 313px;
+    padding: 0;
+    margin-bottom: 64px;
+    border: 0;
+    &__div{
+        margin: 0 auto;
+        width: 1110px;
+        height: 313px;
+        padding: 70px 94px 69px 97px;
+        border: 1px solid #fcd54c;
+        &__p{
+            width: 919px;
+            height: 174px;
+            font-weight: 400;
+            font-size: 30px;
+            line-height: 48px;
+        }
+    }
+}
