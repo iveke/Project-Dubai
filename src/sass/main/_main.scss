@@ -41,7 +41,8 @@ button{
 }
 
 .paul__img-div2, .paul__text-div2, .paul__div2, .projects__div-dots2, .paul__img-div__img2,
-.luxury-div__text__svg-social2, .luxury-div__text__svg-1920, .luxury__background-div__img3{
+.luxury-div__text__svg-social2, .luxury-div__text__svg-1920, .luxury__background-div__img3,
+.projects__div-example__ul__li-hover__btn__svg-1920, .projects__background-div__img3{
     display: none;
 }
 
@@ -104,13 +105,16 @@ body{
         padding: 0 55.5px;
     }
     @import './luxury-1920';
-    .luxury__background-div__img2, .luxury-div__text__svg-social, .luxury-div__text__svg-768{
+    .luxury__background-div__img2, .luxury-div__text__svg-social, .luxury-div__text__svg-768,
+    .projects__background-div__img2, .projects__div-example__ul__li-hover__btn__svg{
         display: none;
     }
-    .luxury-div__text__svg-social2, .luxury-div__text__svg-1920, .luxury__background-div__img3{
+    .luxury-div__text__svg-social2, .luxury-div__text__svg-1920, .luxury__background-div__img3,
+    .projects__div-example__ul__li-hover__btn__svg-1920, .projects__background-div__img3{
         display: block;
     }
     @import './numbers-1920';
+    @import './projects-1920';
 }
 
 @media screen and (max-width:768px){
