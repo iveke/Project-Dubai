@@ -107,5 +107,14 @@ body{
     .luxury__background-div__img2, .luxury-div__text__svg-social, .luxury-div__text__svg-768{
         display: none;
     }
+    .luxury-div__text__svg-social2, .luxury-div__text__svg-1920, .luxury__background-div__img3{
+        display: block;
+    }
     @import './numbers-1920';
+}
+
+@media screen and (max-width:768px){
+    .luxury-div__text__svg-social2, .luxury-div__text__svg-1920, .luxury__background-div__img3{
+        display: none;
+    }
 }
