@@ -47,7 +47,8 @@ button{
 }
 
 .video__svg3, .interier__img-div__img3, .architecture2__img-div2, .articles__div__btn__svg2,
-.articles__img-div__img3, .articles__div2__p, .contact__img-div__img3, .contact__img-div__img2{
+.articles__img-div__img3, .articles__div2__p, .contact__img-div__img3, .contact__img-div__img2,
+.paul__img-div2__img2, .paul__img-div__img3{
     display: none;
 }
 
@@ -116,13 +117,13 @@ body{
     .video__bacgroung-img__img2, .video__svg2, .interier__img-div__img2, .contact__img-div__img2, .architecture2__div__btn__svg{
         display: none;
     }
-    .architecture__img-div__img2, .architecture__img-div{
+    .architecture__img-div__img2, .architecture__img-div, .paul__img-div__img2, .paul__img-div2__img{
         display: none;
     }
     .luxury-div__text__svg-social2, .luxury-div__text__svg-1920, .luxury__background-div__img3, .articles__img-div__img3,
     .projects__div-example__ul__li-hover__btn__svg-1920, .projects__background-div__img3, .articles__div__btn__svg2,
     .video__bacgroung-img__img3, .video__svg3, .interier__img-div__img3, .architecture2__img-div2, .articles__div2__p,
-    .contact__img-div__img3, .architecture2__div__btn__svg2{
+    .contact__img-div__img3, .architecture2__div__btn__svg2, .paul__img-div2__img2, .paul__img-div__img3{
         display: block;
     }
     @import './numbers-1920';
@@ -134,6 +135,7 @@ body{
     @import './contact-1920';
     @import './articles-1920';
     @import './architecture-1920';
+    @import './paul-1920';
 }
 
 @media screen and (max-width:768px){
