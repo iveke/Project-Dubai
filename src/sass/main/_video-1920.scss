@@ -1,0 +1,23 @@
+.video{
+    width: 1800px;
+    height: 921px;
+    margin-bottom: 119px;
+    &__btn{
+        width: 122px;
+        height: 122px;
+        margin: 398px 0 0 838px;
+    }
+    &__svg3{
+        width: 122px;
+        height: 122px;
+        fill: white;
+        background-color: #FCD54C;
+        border-radius: 100px;
+    }
+    &__bacgroung-img{
+        right: 0;
+        &__img{
+            width: 768px;
+        }
+    }
+}

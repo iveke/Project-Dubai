@@ -1,0 +1,81 @@
+.luxury{
+    width: 1802px;
+    height: 971px;
+    margin: 26px auto 124px;
+    padding: 278px 0 0 0;
+    position: relative;
+    display: flex;
+    flex-wrap: wrap;
+    &__background-div{
+        position: absolute;
+        bottom: 0px;
+        z-index: -3;
+    }
+}
+
+.luxury-div__skip{
+    width: 166px;
+    height: 34px;
+    margin: 225px 0 0 470px;
+    gap: 40px;
+    letter-spacing: 4px;
+    font-weight: 700;
+    line-height: 24px;
+    font-size: 20px;
+    &__p{
+        width: 63px;
+        height: 34px;
+        font-weight: 700;
+        line-height: 24px;
+        font-size: 20px;
+    }
+}
+
+.luxury-div__text{
+    height: 385px;
+    width: 900px;
+    margin: 0 0 0 356px;
+    position: relative;
+    &__svg-social2{
+        position: absolute;
+        width: 20px;
+        height: 162px;
+        left: 1762px;
+        top: 55px;
+    }
+    &__svg-1920{
+        position: absolute;
+        width: 124px;
+        height: 388px;
+        background-color: transparent;
+        fill: transparent;
+    }
+    &__svg2{
+        position: absolute;
+        width: 10px;
+        height: 14.13px;
+        bottom: 51px;
+    }
+    &__p{
+        margin: 44px 0 22px 28px;
+    }
+    &__p2{
+        font-weight: 700;
+        font-size: 20px;
+        line-height: 23.46px;
+        width: 197px;
+        height: 23px;
+        margin-left: 28px;
+    }
+    &__h1{
+        font-weight: 700;
+        font-size: 96px;
+        line-height: 100px;
+        width: 725px;
+        height: 220px;
+        margin: 0 0 17px 28px;
+        &__span{
+            width: 100px;
+        }
+    }
+}

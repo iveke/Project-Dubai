@@ -1,0 +1,109 @@
+.projects{
+    width: 1809px;
+    height: 812px;
+    margin-bottom: 70px;
+    &__title{
+        width: 1103px;
+        height: 55px;
+        margin-bottom: 77px;
+        display: flex;
+        gap: 360px;
+        margin-left: 346px;
+        &__h2{
+            width: 342px;
+            height: 55px;
+            font-weight: 700;
+            font-size: 48px;
+            line-height: 69px;
+        }
+    }
+    &__div-choose2{
+        width: 400px;
+        height: 21px;
+        margin: 34px 0 0 0;
+        &__ul{
+            display: flex;
+            gap: 30px;
+            width: 400px;
+            height: 21px;
+            font-weight: 600;
+            font-size: 16px;
+            line-height: 21px;
+            color: white;
+            &__li1{
+                width: 30px;
+                height: 21px;
+                color: #FCD54C;
+                position: relative;
+            }
+            &__li2{
+                width: 70px;
+                height: 21px;
+            }
+            &__li3{
+                width: 70px;
+                height: 21px;
+            }
+            &__li4{
+                width: 123px;
+                height: 21px;
+                color: #929292;
+            }
+        }
+    }
+    &__div-example{
+        height: 572px;
+        width: 1809px;
+        margin-bottom: 100px;
+        &__ul{
+            height: 572px;
+            width: 1809px;
+            gap: 29px;
+            &__li-hover{
+                width: 430px;
+                height: 572px;
+                padding: 46px 61px 44px 30px;
+                &__title{
+                    font-weight: 700;
+                    font-size: 32px;
+                    line-height: 45px;
+                    margin-bottom: 150px;
+                }
+                &__p{
+                    font-weight: 400;
+                    font-size: 22px;
+                    line-height: 26px;
+                    width: 340px;
+                    height: 120px;
+                    margin-bottom: 180px;
+                }
+                &__btn{
+                    width: 160px;
+                    height: 23px;
+                    &__svg-1920{
+                        width: 12px;
+                        height: 20px;
+                    }
+                    &__p{
+                        width: 125px;
+                        height: 23px;
+                        font-weight: 700;
+                        font-size: 20px;
+                        line-height: 23.46px;
+                        margin-right: 3.64px;
+                    }
+                }
+            }
+            &__li{
+                width: 430px;
+                height: 572px;
+                &__p{
+                    font-weight: 700;
+                    font-size: 32px;
+                    line-height: 45px;
+                    margin: 450px 0 50px 40px;
+                }
+            }
+        }
+    }
+}
