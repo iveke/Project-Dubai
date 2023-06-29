@@ -1,0 +1,26 @@
+.interier{
+    width: 1908px;
+    height: 788px;
+    margin-bottom: 115px;
+    &__ul{
+        width: 1110px;
+        height: 788px;
+        flex-direction: row;
+        gap: 24px;
+        margin: 0 auto;
+        &__li{
+            height: 788px;
+            width: 543px;
+            &__p{
+                width: 543px;
+                height: 377px;
+                margin-top: 70px;
+                font-weight: 400;
+                font-size: 18px;
+                line-height: 28.8px;
+                color: #e8e8e8;
+                font-family: Work Sans;
+            }
+        }
+    }
+}

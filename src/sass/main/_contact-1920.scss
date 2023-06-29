@@ -1,0 +1,38 @@
+.contact{
+    width: 1800px;
+    height: 400px;
+    margin-bottom: 140px;
+    &__img-div{
+        right: 0;
+    }
+    &__div{
+        width: 611px;
+        height: 220px;
+        left: 595px;
+        top: 90px;
+        &__p{
+            margin: 0 auto 10px;
+        }
+        &__title{
+            width: 611px;
+            height: 85px;
+            font-weight: 700;
+            font-size: 120px;
+            line-height: 69px;
+            margin: 0 auto 50px;
+        }
+        &__input{
+            width: 314px;
+            height: 61px;
+        }
+        &__btn{
+            width: 157px;
+            height: 61px;
+        }
+        &__form{
+            width: 471px;
+            height: 61px;
+            margin: 0 auto;
+        }
+    }
+}
