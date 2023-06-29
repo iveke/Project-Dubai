@@ -164,6 +164,11 @@ ul {
 .photo{
     margin-top: 50px;
 }
+.photo__li:nth-child(2){
+    margin-top: 10px;
+    margin-bottom: 10px;
+
+}
 .photo__picture + .photo__picture{
     margin-top: 10px;
 }
@@ -186,6 +191,15 @@ ul {
     display: flex;
     font-weight: 600;
     font-family: 'Gilroy-Semibold';
+}
+.recomend-ul-li:first-child{
+    padding-left: 56px;
+}
+.recomend-ul-li:nth-child(2){
+    padding-left: 70px;
+}
+.recomend-ul-li:last-child{
+    padding-left: 20px;
 }
 .recomend-container{
     width: 246px;
@@ -295,6 +309,8 @@ ul {
     line-height: 21px;
     width: 287px;
     height: 483px;
+    list-style: disc;
+    padding-left: 21px;
 }
 .include{
     padding-left: 2px;
@@ -344,6 +360,10 @@ ul {
 }
 .propose{
     margin-top: 50px;
+}
+.propose__li:nth-child(2){
+    margin-top: 20px;
+    margin-bottom: 20px;
 }
 .propose__h1{
     width: 228px;
@@ -580,6 +600,7 @@ ul {
         height: 259px;
         padding-left: 32px;
         padding-right: 61px;
+        padding-bottom: 36px;
     }
     .author__p{
         width: 509px;
@@ -611,6 +632,10 @@ ul {
         display: inline-flex;
         gap: 19px;
     }
+    .propose__li:nth-child(2){
+        margin-top: 0;
+        margin-bottom: 0;
+    }
     .propose__h1{
         width: 238px;
         height: 45px;
@@ -630,6 +655,9 @@ ul {
         background-color: #FCD54C;
         border: 4px solid #FCD54C;  
     }
+    .propose{
+        margin-top: 70px;
+    }
     .propose__card__p{
         width: 189px;
         height: 72px;
@@ -640,6 +668,15 @@ ul {
     }
     .propose__p{
         transform: translate(400px,-310px);
+    }
+    .recomend-ul-li:first-child{
+        padding-left: 0px;
+    }
+    .recomend-ul-li:nth-child(2){
+        padding-left: 0px;
+    }
+    .recomend-ul-li:last-child{
+        padding-left: 0px;
     }
     .recomend-container{
         width: 687px;
@@ -654,5 +691,244 @@ ul {
     }
     .recomend-ul-li:nth-child(2){
         transform: translateY(32px);
-        }    
-    }
+        }
+    }  
+    @media screen and (min-width:1920px) {  
+        .container{
+            width: 1920px;
+            padding: 0;
+        }
+        .hero__container{
+            padding: 0 60px;
+        }
+        .hero__h3{
+            font-size: 20px;
+            width: 138px;
+            height: 20px;
+            left: 345px;
+            top: 496px;
+        }
+        .hero__h1{
+            font-size: 60px;
+            line-height: 80px;
+            width: 660px;
+            height: 133px;
+            left: 345px;
+            top: 535px;
+        }
+        .hero__p{
+            display: none;
+        }
+        .photo__li:nth-child(3) {
+            left: 571px;
+        }
+        .estate{
+            margin-top: 122px;
+        }
+        .estate__h1{
+            display: none;
+        }
+        .estate__text{
+            width: 728px;
+            height: 205px;
+            margin-top: 0;
+            margin-bottom: 0;
+        }
+        .estate__text__p{
+            margin-top: 37px;
+        }
+        .estate__text__two{
+            margin-top: 50px;
+            margin-bottom: 80px;
+        }
+        .text__container{
+            padding: 0 596px;
+        }
+        .methods__h1{
+            width: 730px;
+            font-size: 25px;
+            margin-top: 82px;
+        }
+        .methods__text{
+            margin-top: 50px;
+            width: 728px;
+            height: 280px;
+            font-size: 16px;
+            line-height: 26px;
+        }
+        .challenge__h1{
+            width: 730px;
+            font-size: 25px;
+        }
+        .challenge__p{
+            width: 730px;
+            height: 104px;
+            margin-top: 50px;
+            font-size: 16px;
+            line-height: 26px;
+        }
+        .every__p{
+            width: 730px;
+            height: 130px;
+            font-size: 16px;
+            line-height: 26px;
+        }
+        .line{
+            width: 730px;
+        }
+        .recomend-container{
+            padding-left: 405px;
+        }
+        .recomend-ul{
+            width: 1104px;
+            gap: 90px;
+        }
+        .everything{
+            width: 728px;
+            font-size: 16px;
+            line-height: 26px;
+        }
+        .everything__ul{
+            font-size: 15px;
+        }
+        .include__container{
+            padding: 0 405px;
+        }
+        .photo__container{
+            padding-left: 403px;
+            padding-right: 407px;
+        }
+        .dubai__container{
+            padding-left: 404px;
+            padding-right: 406px;
+        }
+        .line__conatiner{
+            padding-left: 594px;
+            padding-right: 596px;
+        }
+        .everything__container{
+            padding-left: 595px;
+            padding-right: 597px;
+        }
+        .one{
+            margin-left: 457px;
+        }
+        .two{
+            margin-left: 493px;
+        }
+        .three{
+            margin-left: 382px;
+        }
+        .four{
+            margin-left: 544px;
+        }
+        .five{
+            margin-left: 537px;
+        }
+        .six{
+            margin-left: 484px;
+        }
+        .seven{
+            margin-left: 421px;
+        }
+        .eight{
+            margin-left: 358px;
+        }
+        .nine{
+            margin-left: 319px;
+        }
+        .ten{
+            margin-left: 463px;
+        }
+        .eleven{
+            margin-left: 676px;
+        }
+        .twenteen{
+            margin-left: 659px;
+        }
+        .threeteen{
+            margin-left: 859px;
+        }
+        .fourteen{
+            margin-left: 708px;
+        }
+        .fiveteen{
+            margin-left: 776px;
+        }
+        .include__li{
+            width: 1110px;
+        }
+        .include__title{
+            width: 1110px;
+        }
+        .include__ul{
+            width: 1110px;
+            height: 851px;
+        }
+        .include__true__two{
+            margin-left: 274px;
+        }
+        .include__h3:nth-child(2){
+            margin-left: 379px;
+            margin-right: 147px;
+        }
+        .propose{
+            margin-top: 210px;
+        }
+        .photo{
+            margin-top: 211px;
+        }
+        .challenge{
+            margin-top: 82px;
+        }
+        .recomend{
+            margin-top: 123px;
+        }
+        .propose__h1{
+            font-size: 32px;
+            width: 304px;
+            height: 45px;
+            margin-bottom: 91px;
+        }
+        .propose__ul{
+            gap: 31px;
+        }
+        .propose__p{
+            transform: translate(819px, -509px);
+            width: 263px;
+        }
+        .propose__card{
+            width: 350px;
+            height: 350px;
+            padding-top: 83px;
+            padding-left: 34px;
+        }
+        .propose__card__h2{
+            width: 262px;
+            height: 35px;
+            font-size: 25px;
+        }
+        .propose__card__p{
+            font-size: 16px;
+            line-height: 26px;
+            width: 280px;
+            height: 122px;
+            margin-top: 28px;
+        }
+        .author{
+            width: 730px;
+            padding-left: 40px;
+            padding-right: 72px;
+            padding-bottom: 34px;
+        }
+        .author__p{
+            width: 530px;
+            font-size: 21px;
+            margin-left: 19px;
+            line-height: 35px;
+            margin-top: 37px;
+        }
+        .author__quotes{
+            height: 124px;
+        }
+        }
