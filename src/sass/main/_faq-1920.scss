@@ -1,0 +1,166 @@
+.faq{
+    width: 1908px;
+    height: 577px;
+    margin-bottom: 122px;
+    padding: 0 400px;
+    &__div{
+        width: 1110px;
+        height: 577px;
+        &__p{
+            width: 250px;
+            height: 55px;
+            margin-bottom: 22px;
+            font-weight: 700;
+            font-size: 70px;
+            line-height: 60px;
+        }
+        &__ul{
+            width: 1110px;
+            height: 500px;
+            gap: 20px;
+            display: flex;
+            flex-direction: column;
+            &__li2{
+                width: 1110px;
+                height: 63px;
+                display: flex;
+                border-top: 1px solid #929292;
+                border-bottom: 1px solid #929292;
+                flex-wrap: wrap;
+                &__p3{
+                    display: none;
+                    width: 980px;
+                    height: 132px;
+                    font-weight: 400;
+                    font-size: 14px;
+                    line-height: 22.4px;
+                    // margin: 33px 65px 20px 65px;
+                }
+                &__btn{
+                    width: 13px;
+                    height: 21px;
+                    margin: 20 0 0 0;
+                    background-color: transparent;
+                    border: 0;
+                    padding: 0;
+                }
+                &__svg2{
+                    margin: 0;
+                    width: 13px;
+                    height: 21px;
+                }
+                &__svg3{
+                    margin: 0;
+                    width: 25px;
+                    height: 21px;
+                    display: none;
+                }
+                &__p2{
+                    width: 700px;
+                    height: 63px;
+                    font-weight: 400;
+                    font-size: 18px;
+                    line-height: 23.4px;
+                    margin: 20px 395px 20px 0;
+                }
+            }
+            &__li3, &__li4, &__li5, &__li6{
+                width: 1110px;
+                height: 43px;
+                display: flex;
+                border-top: 1px solid #929292;
+                flex-wrap: wrap;
+                &__p2{
+                    margin-top: 33px;
+                    display: none;
+                    width: 980px;
+                    height: 132px;
+                    font-weight: 400;
+                    font-size: 14px;
+                    line-height: 22.4px;
+                }
+                &__btn{
+                    width: 13px;
+                    height: 21px;
+                    margin: 22px 0 0 0;
+                    background-color: transparent;
+                    border: 0;
+                    padding: 0;
+                }
+                &__svg{
+                    margin: 0;
+                }
+                &__svg3{
+                    margin: 0;
+                    width: 25px;
+                    height: 21px;
+                    display: none;
+                }
+                &__p{
+                    width: 700px;
+                    height: 23px;
+                    font-weight: 400;
+                    font-size: 18px;
+                    line-height: 23.4px;
+                    margin-right: 395px;
+                    margin-top: 20px;
+            }
+        }
+        &__li3:hover{
+                .faq__div__ul__li3__p2{
+                    display: block;
+                }
+                .faq__div__ul__li3__svg3{
+                    display: block;
+                }
+                .faq__div__ul__li3__svg{
+                    display: none;
+                }
+        }
+        &__li4:hover{
+            .faq__div__ul__li4__p2{
+                display: block;
+            }
+            .faq__div__ul__li4__svg3{
+                display: block;
+            }
+            .faq__div__ul__li4__svg{
+                display: none;
+            }
+    }
+    &__li5:hover{
+        .faq__div__ul__li5__p2{
+            display: block;
+        }
+        .faq__div__ul__li5__svg3{
+            display: block;
+        }
+        .faq__div__ul__li5__svg{
+            display: none;
+        }
+}
+&__li6:hover{
+    .faq__div__ul__li6__p2{
+        display: block;
+    }
+    .faq__div__ul__li6__svg3{
+        display: block;
+    }
+    .faq__div__ul__li6__svg{
+        display: none;
+    }
+}
+&__li2:hover{
+    .faq__div__ul__li2__p3{
+        display: block;
+    }
+    .faq__div__ul__li2__svg3{
+        display: block;
+    }
+    .faq__div__ul__li2__svg2{
+        display: none;
+    }
+}
+    }
+}
+}

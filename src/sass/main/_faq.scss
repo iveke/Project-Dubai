@@ -25,7 +25,15 @@
                 display: flex;
                 border-top: 1px solid #929292;
                 border-bottom: 1px solid #929292;
-                &__svg{
+                &__btn{
+                    width: 13px;
+                    height: 21px;
+                    margin: auto 0;
+                    background-color: transparent;
+                    border: 0;
+                    padding: 0;
+                }
+                &__svg2{
                     width: 13px;
                     height: 21px;
                     margin: auto 0;
@@ -39,7 +47,7 @@
                     margin: 20px 33px 23px 0;
                 }
             }
-            &__li{
+            &__li3, &__li4, &__li5, &__li6{
                 width: 288px;
                 height: 53px;
                 display: flex;
@@ -57,6 +65,14 @@
                     font-weight: 400;
                     margin-right: 33px;
                     margin-top: 20px;
+                }
+                &__btn{
+                    width: 13px;
+                    height: 21px;
+                    margin: 0px 0 0 0;
+                    background-color: transparent;
+                    border: 0;
+                    padding: 0;
                 }
             }
         }
