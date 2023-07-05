@@ -1,9 +1,15 @@
 @import '/cssfonnts/fonts.scss';
 
+.wrapper {
+    margin: 0 auto;
+    min-width: 1920px;
+}
+
 .header {
     margin: 0 auto;
     display: flex;
     align-items: center;
+    width: 1802px;
 
     &__logo {
         width: 184px;
@@ -42,32 +48,33 @@
         width: 553px;
         height: 19px;
         margin-left: 152px;
+        gap: 40px;
     }
 
-    .page {
+    .page,
+    .page>a {
         position: relative;
-        list-style: none;
-        text-decoration: none;
-        margin-left: 30px;
+        color: #FFF;
         font-size: 14px;
         font-family: "Gilroy";
         font-style: normal;
         font-weight: 600;
         line-height: normal;
-        text-transform: uppercase;
-        color: #fff;
+        text-decoration: none;
     }
 
     .buy {
-        width: 247px;
-        height: 108px;
-        border: 1px solid #979797;
+        background-color: #272727;
         display: none;
+        width: 247px;
+        position: absolute;
+        top: 30;
+        border: 1px solid #979797;
 
         &__page {
-            margin-top: 10px;
-            position: absolute;
-            left: 0;
+           width: 245px;
+           height: 36px;
+           padding: 9 0 10 20;
             color: #FFF;
             font-size: 14px;
             font-family: "Gilroy";
@@ -77,11 +84,29 @@
         }
     }
 
-    .more:hover>.buy {
-        display: block;
-       
+    .page:hover {
+        .buy {
+            display: block;
+        }
+
+        color: #fcd54c;
+        text-decoration: underline 2px;
+
+        .page {
+
+            &__link {
+                color: #fcd54c;
+            }
+
+        }
     }
 
+    .buy{
+        &__page:hover{
+            color: #000;
+            background-color: #fcd54c;
+        }
+    }
 
     .btn {
         width: 165px;
