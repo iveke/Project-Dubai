@@ -104,7 +104,7 @@
     .buy{
         &__page:hover{
             color: #000;
-            background-color: #fcd54c;
+            background-color: #fcd54c;  
         }
     }
 
@@ -133,6 +133,9 @@
         font-weight: 600;
         line-height: normal;
         text-transform: uppercase;
+    }
+    .active{
+        color: #fcd54c;
     }
 
     .number {
