@@ -1,8 +1,7 @@
 @import '/cssfonnts/fonts.scss';
 
 .wrapper {
-    margin: 0 auto;
-    min-width: 1920px;
+    width: 1920px;
 }
 
 .header {
@@ -72,9 +71,9 @@
         border: 1px solid #979797;
 
         &__page {
-           width: 245px;
-           height: 36px;
-           padding: 9 0 10 20;
+            width: 245px;
+            height: 36px;
+            padding: 9 0 10 20;
             color: #FFF;
             font-size: 14px;
             font-family: "Gilroy";
@@ -101,10 +100,10 @@
         }
     }
 
-    .buy{
-        &__page:hover{
+    .buy {
+        &__page:hover {
             color: #000;
-            background-color: #fcd54c;  
+            background-color: #fcd54c;
         }
     }
 
@@ -134,7 +133,8 @@
         line-height: normal;
         text-transform: uppercase;
     }
-    .active{
+
+    .active {
         color: #fcd54c;
     }
 
@@ -147,5 +147,69 @@
         font-style: normal;
         font-weight: 600;
         line-height: normal;
+    }
+
+    .menu {
+        display: none;
+    }
+}
+
+@media (max-width:768px) {
+    .wrapper {
+        width: 768px;
+    }
+
+    .header {
+        max-width: 768px;
+        height: 61px;
+
+
+        .lang {
+            margin-left: 30px;
+        }
+
+        .btn {
+            margin-left: 97px;
+        }
+
+        .number {
+            margin-left: 22px;
+        }
+
+        .menu {
+            display: block;
+            margin-left: 27px;
+        }
+
+        &__pages {
+            position: absolute;
+            top: 107px;
+            display: flex;
+            flex-direction: column;
+            margin: 0;
+            left: auto;
+            height: 512px;
+        }
+
+        .page,
+        .page>a {
+            font-size: 36px;
+            font-family: "Gilroy";
+            font-style: normal;
+            font-weight: 600;
+            line-height: normal;
+            text-transform: uppercase;
+        }
+
+        .buy {
+
+            &__page {
+                font-size: 14px;
+                font-family: "Gilroy";
+                font-style: normal;
+                font-weight: 600;
+                line-height: normal;
+            }
+        }
     }
 }
