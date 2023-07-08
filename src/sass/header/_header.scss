@@ -88,16 +88,25 @@
             display: block;
         }
 
-        color: #fcd54c;
         text-decoration: underline 2px;
+        color: #fcd54c;
 
         .page {
 
+            .buy {
+                &__page {
+                    text-decoration: none;
+                }
+            }
+
+
             &__link {
                 color: #fcd54c;
+                text-decoration: underline 2px;
             }
 
         }
+
     }
 
     .buy {
@@ -187,29 +196,37 @@
             display: flex;
             flex-direction: column;
             margin: 0;
-            left: auto;
+            left: 250px;
             height: 512px;
+
+
+            .page {
+
+                &__link {
+
+                    font-family: "Gilroy";
+                    font-style: normal;
+                    font-weight: 600;
+                    line-height: normal;
+
+                }
+            }
+
+            &__pages {
+                font-size: 36px;
+            }
         }
 
-        .page,
-        .page>a {
-            font-size: 36px;
-            font-family: "Gilroy";
-            font-style: normal;
-            font-weight: 600;
-            line-height: normal;
-            text-transform: uppercase;
-        }
+
 
         .buy {
+            border: 0;
+            position: static;
 
             &__page {
-                font-size: 14px;
-                font-family: "Gilroy";
-                font-style: normal;
-                font-weight: 600;
-                line-height: normal;
+                text-decoration: none;
             }
+
         }
     }
 }
