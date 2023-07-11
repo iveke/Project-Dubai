@@ -189,44 +189,18 @@
             display: block;
             margin-left: 27px;
         }
-
-        &__pages {
+        &__pages{
             position: absolute;
             top: 107px;
             display: flex;
             flex-direction: column;
-            margin: 0;
-            left: 250px;
-            height: 512px;
-
-
-            .page {
-
-                &__link {
-
-                    font-family: "Gilroy";
-                    font-style: normal;
-                    font-weight: 600;
-                    line-height: normal;
-
-                }
-            }
-
-            &__pages {
-                font-size: 36px;
-            }
         }
+    .buy{
+        position: static;
+        border: 0;
+        top: 10px;
+        text-decoration: none   ;
+    }
 
-
-
-        .buy {
-            border: 0;
-            position: static;
-
-            &__page {
-                text-decoration: none;
-            }
-
-        }
     }
 }
